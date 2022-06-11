@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    height: 600px;
+    border: 1px solid gray;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+.login {
+    width: 30%;
+    height: 100%;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img, h1, input {
+    margin: 10px 0;
+}
+
+.input {
+    width: 230px;
+    height: 50px;
+    background-color: rgba(231, 231, 231, 0.678);
+    border: 0px;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+
+
+.imagem {
+    width: 70%;
+    height: 100%;
+    background-image: url(imagem-capa.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.input:hover {
+    background-color: #e0e0e0;
+
+}
+
+.container-botoes {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.322);
+}
+
+.button-facebook {
+    background-color: #1577F9;
+    background-image: url(facebook.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-google {
+    background-color: white;
+    background-image: url(google.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button-apple {
+    background-color: black;
+    background-image: url(Captura\ de\ tela\ 2022-06-11\ 175448.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.checkbox {
+    width: 20px;
+    background-color: grey;
+    color: rgb(255, 0, 106);
+}
+
+.checkbox1 {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    align-self: start;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.botao-entrar button {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 20px;
+    margin-top: 50px;
+    background-image: url(seta-botao.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
